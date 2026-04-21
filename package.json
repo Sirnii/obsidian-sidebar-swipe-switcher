@@ -1,0 +1,41 @@
+{
+	"name": "sidebar-swipe-switcher",
+	"version": "0.1.0",
+	"description": "Switch left and right Obsidian sidebar tabs with touchpad swipes.",
+	"main": "main.js",
+	"type": "module",
+	"scripts": {
+		"dev": "node esbuild.config.mjs",
+		"build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
+		"lint": "eslint ."
+	},
+	"keywords": [
+		"obsidian",
+		"plugin",
+		"sidebar",
+		"touchpad"
+	],
+	"homepage": "https://github.com/Sirnii/obsidian-sidebar-swipe-switcher",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Sirnii/obsidian-sidebar-swipe-switcher.git"
+	},
+	"bugs": {
+		"url": "https://github.com/Sirnii/obsidian-sidebar-swipe-switcher/issues"
+	},
+	"license": "MIT",
+	"devDependencies": {
+		"@eslint/js": "9.30.1",
+		"@types/node": "^16.11.6",
+		"esbuild": "0.25.5",
+		"eslint-plugin-obsidianmd": "0.1.9",
+		"globals": "14.0.0",
+		"jiti": "2.6.1",
+		"tslib": "2.4.0",
+		"typescript": "^5.8.3",
+		"typescript-eslint": "8.35.1"
+	},
+	"dependencies": {
+		"obsidian": "latest"
+	}
+}

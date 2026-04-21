@@ -1,0 +1,10 @@
+{
+	"id": "sidebar-swipe-switcher",
+	"name": "Sidebar Swipe Switcher",
+	"version": "0.1.0",
+	"minAppVersion": "1.12.0",
+	"description": "Switch left and right sidebar tabs with horizontal touchpad swipes.",
+	"author": "Sirnii",
+	"authorUrl": "https://github.com/Sirnii",
+	"isDesktopOnly": true
+}
