@@ -10,15 +10,10 @@ Obsidian plugin for switching left and right sidebar tabs with horizontal touchp
 - Supports normal Obsidian hotkey bindings through those commands
 - Exposes settings for swipe threshold, cooldown, and direction inversion
 
-## Default Behavior
-
-Fresh installs start with these defaults:
-
-- `swipeThreshold: 40`
-- `cooldownMs: 300`
-- `invertDirection: true`
-
 ## Installation
+
+### BRAT
+Use BRAT plugin
 
 ### Manual
 
