@@ -7,6 +7,7 @@ Obsidian plugin for switching left and right sidebar tabs with horizontal touchp
 - Detects horizontal swipe-like wheel gestures while the pointer is over the left or right sidebar
 - Switches to the next or previous tab in that sidebar
 - Adds command palette commands for cycling each sidebar manually
+- Supports normal Obsidian hotkey bindings through those commands
 - Exposes settings for swipe threshold, cooldown, and direction inversion
 
 ## Default Behavior
@@ -21,10 +22,19 @@ Fresh installs start with these defaults:
 
 ### Manual
 
-1. Download `main.js`, `manifest.json`, and `styles.css` if present from the latest release or build output.
+1. Download `main.js` and `manifest.json` from the latest release or build output.
 2. Create a folder named `sidebar-swipe-switcher` inside your vault's `.obsidian/plugins/` directory.
 3. Copy the plugin files into that folder.
 4. Enable **Sidebar Swipe Switcher** in Obsidian community plugin settings.
+
+## Hotkeys
+
+The plugin registers these commands, so you can bind them in `Settings -> Hotkeys`:
+
+- `Sidebar Swipe Switcher: Next left sidebar tab`
+- `Sidebar Swipe Switcher: Previous left sidebar tab`
+- `Sidebar Swipe Switcher: Next right sidebar tab`
+- `Sidebar Swipe Switcher: Previous right sidebar tab`
 
 ### Development
 
